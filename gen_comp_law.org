@@ -1,0 +1,28 @@
+#+title: Gen Comp Law + Smart Contracts
+* Harry Surden - Computational Contracts
+** Short version
+*** This seems to be written primarily for lawyers, or at least, people who don't know much about CS. There's some interesting discussion of how legal practices might be affected by (and benefit from) computational contracts, but overall, I'm not sure it's that helpful for a non-lawyer trying to implement a computational contract framework.
+** Longer version
+*** What people take to be the obstacle to automating contracts
+**** Computers can't understand natural language contracts
+***** Quote
+****** "The perceived impediment concerns the state of computerized understanding of language-based expression."
+**** Computers not good at reasoning about 'open-ended, abstract' stuff [?]
+*** "Does contract doctrine accommodate the expression of contracts as data rather than words?" [interesting]
+***** Surden: "At a minimum, contract laws do not explicitly prohibit expressing contractual obligations in terms of data. More affirmatively, basic contracting principles actively accommodate data- oriented representation."
+**** On the notion of a 'computable contract'
+***** Data orientation vs computable contract
+****** For a contract to be 'computable', computer system must be equipped to make "automated, prima facie assessments of conformance with certain contract terms"
+*****  Examples
+****** a currency contract in which one party promised to pay another party some amount of currency at some future date.
+****** option contract
+****** Geographic Limitations on Online IP
+******* "The interesting point is that the parties might specifically agree, up front, that the contract condition is sufficiently met by automated geographic detection — even if such a process is occasionally incorrect relative to a user’s actual geographic location. In this way the parties have contractually stipulated a computable contract condition, indicating that the imperfect, but automatable, substitute should be understood to constitute contractual compliance. In this case, prima-facie compliance with such a term can be specifically made computable by reference to relevant data (e.g., detected geographic location) and ex- ante agreement by the contracting parties." (662)
+****** Copyright licensing
+**** Principles of computable contracts
+**** Benefits of computable contracting
+***** "1) reduce transaction costs in creating, monitoring, and reacting to obligations; 2) use new properties for analyzing contractual arrangement that are only possible when they exist in machine-processable form; and 3) enable autonomous, computer-to-computer, contracting."
+***** Some nice examples
+****** Duplicate licenses (and, relatedly, conflicting obligations)
+******* "the “duplicative license” scenario. In this example, consider several different university units (e.g., libraries, academic departments) that had separately negotiated licensing agreements for academic materials. In several cases, these agreements overlapped, conferring duplicative licenses. In the traditional written-language contract context, conditions such as duplications or contradictions among legal obligations are difficult to detect. These can become lost and obscured among the contracts and licenses located in the filing cabinets and computers of those who negotiated them. However, once these legal obligations are made explicit and represented in terms of data, they are no longer effectively lost in the paper. Rather, computers can efficiently find and compare these legal obligations as data objects themselves and detect such duplication."
+******* Interesting discussion of how what's legal (e.g. copyright fair use) can be affected by how costly (or not) contracting is
