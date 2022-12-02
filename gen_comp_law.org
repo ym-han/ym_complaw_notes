@@ -26,3 +26,17 @@
 ****** Duplicate licenses (and, relatedly, conflicting obligations)
 ******* "the “duplicative license” scenario. In this example, consider several different university units (e.g., libraries, academic departments) that had separately negotiated licensing agreements for academic materials. In several cases, these agreements overlapped, conferring duplicative licenses. In the traditional written-language contract context, conditions such as duplications or contradictions among legal obligations are difficult to detect. These can become lost and obscured among the contracts and licenses located in the filing cabinets and computers of those who negotiated them. However, once these legal obligations are made explicit and represented in terms of data, they are no longer effectively lost in the paper. Rather, computers can efficiently find and compare these legal obligations as data objects themselves and detect such duplication."
 ******* Interesting discussion of how what's legal (e.g. copyright fair use) can be affected by how costly (or not) contracting is
+* Contract Formalization and Modular Implementation of DSLs
+** Short
+** Longer
+*** Terminology
+**** a 'contract'
+***** "refers to a traditional, legally binding agreement between two or more parties, and the specific domain of interest is /business contracts/ —for instance a sales contract"
+**** blame assignment
+***** "blame can be inferred from the semantics of a contract, in case of a breach of contract. That is, if the execution of a contract fails, then one or more of the involved parties will be blamed"
+*** Chp 0: Overview
+**** The connection between business contracts and contracts for distributed programming
+****** Both sorts of contracts involve /safety properties/
+******* "in both scenarios a contract has to deal with real-time aspects, and in both scenarios we can assume no common goal of interest between the involved parties, nor access to the internal organisation of each party. Therefore, contracts are—in both scenarios—characterised by the idea that failures always hap- pen in finite time. In other words, contracts are safety properties [4]. This, in turn, means that commitments cannot be eventually guarantees—commitments must be guarded by absolute deadlines."
+****** Just as program correctness should be defined with respect to a set of contracts, workflow compliance should be defined with respect to a set of contracts --- a /contract portfolio/
+*** Chp 2: Specifying a formal semantics and a DSL for biz contracts that accounts for 'blame assignment' ("A Trace-Based Model for Multiparty Contracts")
